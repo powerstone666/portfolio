@@ -3,23 +3,25 @@ import DotGroup from './DotGroup';
 import useMediaQuery from './useMediaQuery';
 import Navbar from './navbar';
 import Landing from './Landing';
+import Linegardient from './llinegradient';
+import Myskills from './myskills';
 function App() {
   const [selected, setSelected] = useState('home');
-  const isAboveMedium = useMediaQuery('(min-width: 1060px)');
+  const isAboveMedium = useMediaQuery("(min-width: 1060px)");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
-
+useEffect(() => {
   const handleScroll = () => {
     if (window.scrollY === 0) {
       setIsTopOfPage(true);
-    } else {
+    } if(window.scrollY !==0) {
       setIsTopOfPage(false);
     }
-  };
+  }
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+},[]);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+
 
   return (
     <div className="bg-deep-blue">
@@ -28,8 +30,12 @@ function App() {
         {isAboveMedium && (
           <DotGroup selected={selected} setSelected={setSelected} />
         )}
-      </div>
       <Landing setSelected={setSelected}/>
+      </div>
+      <Linegardient />
+      <div  className='w-5/6 mx-auto md:h-full'>
+         <Myskills/>
+      </div>
     </div>
   );
 }

@@ -2,8 +2,9 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}"
   ],
+  mode:'jit',
   theme: {
     extend: {
       colors:{
@@ -15,10 +16,11 @@ export default {
         "deep-grey":"#757575",
         "opaque-black":"rgba(0,0,0,0.35)"
       },
-            backgroundImage: {
+    },
+            backgroundImage: (theme)=>( {
               "gradient-rainbow": "linear-gradient(81.66deg, #00b5ee 7.21%, #ff45a4 45.05%, #ffba00 79.07%)",
               "gradient-rainblue": "linear-gradient(90deg, #24cbff 14.53%, #fc59ff 69.36%, #ffbd0c 117.73%)"
-            },
+            }),
             fontFamily: {
               playfair: ["Playfair Display", "serif"],
               opensans: ["Open Sans", "sans-serif"],
@@ -31,9 +33,8 @@ export default {
               xs: "480px",
               sm: "768px",
               md: "1060px"
-            }
-          }
+            },
         },
         plugins: [],
       }
-
+    

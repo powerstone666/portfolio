@@ -11,14 +11,14 @@ function Landing({selected,setSelected})
             {/*image*/}
             <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-16 md:mt-32">
                {isAboveMedium ?(
-                   <div className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-t-[400px] before:w-full before:max-w-[400px] before:h-full
+                   <div className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-[15px] before:w-full before:max-w-[550px] before:h-full
                    before:border-2 before:border-blue before:z-[-1]">
-                    <img src="src/assets/profile-image.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full
-                    max-w-[400px] md:max-w-[600px]"/>
+                    <img src="src/assets/profile-pic2.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-1 w-full
+                    max-w-[400px] md:max-w-[600px] rounded-[15px]"/>
                     </div>
                ):(
-                <img src="src/assets/profile-image.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full
-                max-w-[400px] md:max-w-[600px]"/>
+                <img src="src/assets/profile-pic2.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-1 w-full
+                max-w-[400px] md:max-w-[600px] rounded-[15px]"/>
                )}
                </div>
                {/*main section*/}
@@ -31,10 +31,10 @@ function Landing({selected,setSelected})
           transition={{ duration: 0.5 }}
           variants={{
             hidden: { opacity: 0, x: -50 },
-            visible: { opacity: 1, x:0 },
+            visible: { opacity: 1, x:0 }
           }}
         >
-          <p className="text-6xl font-playfair z-10 text-center ">
+          <p className="text-6xl font-playfair z-10 text-center md:text-start">
             Imran {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
@@ -44,8 +44,10 @@ function Landing({selected,setSelected})
             </span>
           </p>
 
-          <p className="mt-14 mb-7 text-sm text-center">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum <br/> viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+          <p className="mt-10 mb-7 text-2sm text-center md:text-start">
+          🚀 Aspiring Full Stack Developer | 🎓 Computer Science & Engineering Student
+
+Passionate about crafting digital experiences through code. Always seeking innovative solutions to real-world problems. Currently honing my skills at HKBK College of Engineering, eagerly anticipating graduation in 2025.
           </p>
         </motion.div>
         {/*action*/}
