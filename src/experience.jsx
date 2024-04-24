@@ -52,7 +52,7 @@ function Experience()
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'RGB(240, 240, 240)', color: 'black' }}
+    contentStyle={{ background: 'beige', color: 'orange' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2023 -2023"
     iconStyle={{  background: 'linear-gradient(to right, #8a2be2, #0000ff)',boxShadow: "0 0 20px 10px #4169e1", color: '#fff' }}
@@ -83,7 +83,7 @@ function Experience()
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'RGB(240, 240, 240)', color: 'black' }}
+    contentStyle={{ background: 'beige', color: 'orange' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2023 -present"
     iconStyle={{  background: 'linear-gradient(to right, #8a2be2, #0000ff)',boxShadow: "0 0 20px 10px #4169e1", color: '#fff' }}
@@ -115,7 +115,7 @@ function Experience()
   </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
-    contentStyle={{ background: 'RGB(240, 240, 240)', color: 'black' }}
+    contentStyle={{ background: 'beige', color: 'orange' }}
     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
     date="2022 -present"
     iconStyle={{ background: 'linear-gradient(to right, #8a2be2, #0000ff)',boxShadow: "0 0 20px 10px #4169e1", color: '#fff' }}

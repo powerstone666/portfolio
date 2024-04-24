@@ -2,6 +2,7 @@ import React from 'react';
 import {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from './useMediaQuery';
+import close from './assets/close-icon.svg';
 import {motion,useScroll} from 'framer-motion';
 const Link =({page,selected,setselected})=>{
     const lowerCasePage = page.toLowerCase();
@@ -50,7 +51,7 @@ function Navbar({isTopOfPage,selected,setSelected})
                 <div className="fixed right-0 bottom-0 h-full bg-blue w-[300px]">
                     <div className='flex justify-end p-12'>
                         <button onClick={()=>{setIsMenuToggled(!isMenuToggled)}}>
-                            <img src="src/assets/close-icon.svg" alt="close" className="w-6"/>
+                            <img src={close} alt="close" className="w-6"/>
                         </button>
                        </div>
                        <div className='flex flex-col gap-10 ml-[33%] text-2xl text-deep-blue'>
