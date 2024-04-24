@@ -2,6 +2,7 @@ import useMediaQuery from "./useMediaQuery";
 import {motion} from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Socialmedia from "./socialmedia";
+import profile from "./assets/profile-pic2.png";
 function Landing({selected,setSelected})
 {
     const isAboveMedium=useMediaQuery('(min-width:1060px)');
@@ -17,7 +18,7 @@ function Landing({selected,setSelected})
                     max-w-[400px] md:max-w-[600px] rounded-[15px]"/>
                     </div>
                ):(
-                <img src="src/assets/profile-pic2.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-1 w-full
+                <img src={profile} alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-1 w-full
                 max-w-[400px] md:max-w-[600px] rounded-[15px]"/>
                )}
                </div>

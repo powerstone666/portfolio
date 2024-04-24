@@ -1,5 +1,9 @@
 import Linegardient from "./llinegradient";
 import { motion } from "framer-motion";
+import dynamicflow from "./assets/dynamicflow-1.png";
+import textsummarizer from "./assets/textsummarizer.png";
+import buildhub from "./assets/buildhub.png";
+import usermanagement from "./assets/usermanagement.png";
 
 function Projects()
 {
@@ -37,7 +41,7 @@ function Projects()
                                 View Code
                             </a>
                                 </div>
-                                <img src={`src/assets/${projectTitle}.png`} alt={projectTitle}/>
+                                <img src={title} alt={projectTitle}/>
                         </motion.div>
                 )
         }
@@ -80,11 +84,11 @@ function Projects()
                     <div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibolld">
                         BEAUTIFUL USER INTERFACE
                     </div>
-                    <Project title="dynamicflow 1"  title2="DynamicFlow" gitlink="https://github.com/powerstone666/DynamicFlow-react"/>
-                    <Project title="textsummarizer"  title2="AI Text Summarizer" gitlink="https://github.com/powerstone666/text-summarizer"/>
+                    <Project title={dynamicflow}  title2="DynamicFlow" gitlink="https://github.com/powerstone666/DynamicFlow-react"/>
+                    <Project title={textsummarizer}  title2="AI Text Summarizer" gitlink="https://github.com/powerstone666/text-summarizer"/>
                     {/*row2*/}
-                    <Project title="buildhub"   title2="BuildHub" gitlink="https://github.com/powerstone666/BuildHub"/>
-                    <Project title="usermanagement"  title2="User Management System" gitlink="https://github.com/powerstone666/user-spring"/>
+                    <Project title={buildhub}   title2="BuildHub" gitlink="https://github.com/powerstone666/BuildHub"/>
+                    <Project title={usermanagement}  title2="User Management System" gitlink="https://github.com/powerstone666/user-spring"/>
                     <div className="flex justify-center text-center items-center p-10 bg-blue max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibolld">
                      SMOOTH USER EXPERIENCE
                     </div>

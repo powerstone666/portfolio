@@ -1,6 +1,7 @@
 import Linegardient from "./llinegradient";
 import { motion } from "framer-motion";
 import { useForm } from "react-hook-form";
+import contact from "./assets/contact.png";
 function Contact(){
     const {register,handleSubmit,trigger,formState:{errors}}=useForm();
     const onSubmit=async (e)=>{
@@ -47,7 +48,7 @@ return(
             visible: { opacity: 1, y: 0 },
           }}
         >
-            <img src="src/assets/contact.png" alt="contact" className="hover:filter hover:saturate-200 transition duration-500"/>
+            <img src={contact} alt="contact" className="hover:filter hover:saturate-200 transition duration-500"/>
             </motion.div>
             <motion.div
           className="basis-1/2 mt-10 md:mt-0"
