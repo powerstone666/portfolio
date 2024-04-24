@@ -61,7 +61,7 @@ return(
             visible: { opacity: 1, y: 0 },
           }}
         >
-        <form target="_blank" onSubmit={onSubmit} action="https://formsubmit.co/453a32f163bb96323b5b860d8bcfb018" method="post"> 
+        <form target="_blank" onSubmit={onSubmit} action="https://formsubmit.co/imranpasha8225@gmail.com" method="post"> 
          <input className="w-full bg-blue font-semibold placeholder-opaque-black p-3 mt-5 outline-none  focus:border-red border-4 border-transparent "
          type="text" placeholder="NAME" {...register("name",{
             required:true,
