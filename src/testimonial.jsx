@@ -42,7 +42,7 @@ function Testimonial() {
             }}
           >
             <p className="font-playfair text-5xl">“</p>
-            <p className="text-center text-md">
+            <p className="text-center text-sm xs:text-md">
             I've known Imran pasha for 3yrs, witnessing their growth and success. Skilled professional and wonderful to work with. Will continue to achieve great things
             </p>
             <p className="flex justify-end">- Junaid Mehraj</p>
@@ -61,7 +61,7 @@ function Testimonial() {
             }}
           >
             <p className="font-playfair text-5xl">“</p>
-            <p className="text-center text-md">
+            <p className="text-center text-sm xs:text-md">
             imran pasha is an exceptional talent in Software Development. Impressive expertise and attention to detail. Outstanding results every time
             </p>
             <p className="flex justify-end">- Ankit Kumar</p>
@@ -80,7 +80,7 @@ function Testimonial() {
             }}
           >
             <p className="font-playfair text-5xl">“</p>
-            <p className="text-center text-md">
+            <p className="text-center text-sm xs:text-md">
             Working with imran pasha has been a pleasure. Their dedication and passion shine in everything they do. Highly recommend for any project!
             </p>
             <p className="flex justify-end">Ateeq Ur Rehaman</p>

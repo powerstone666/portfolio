@@ -13,11 +13,11 @@ function Landing({selected,setSelected})
                {isAboveMedium ?(
                    <div className="relative z-0 ml-20 before:absolute before:-top-20 before:-left-20 before:rounded-[15px] before:w-full before:max-w-[550px] before:h-full
                    before:border-2 before:border-blue before:z-[-1]">
-                    <img src="src/assets/profile-pic2.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-1 w-full
+                    <img src="public/assets/profile-pic2.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-1 w-full
                     max-w-[400px] md:max-w-[600px] rounded-[15px]"/>
                     </div>
                ):(
-                <img src="src/assets/profile-pic2.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-1 w-full
+                <img src="/assets/profile-pic2.png" alt="landing" className="hover:filter hover:saturate-200 transition duration-500 z-1 w-full
                 max-w-[400px] md:max-w-[600px] rounded-[15px]"/>
                )}
                </div>
