@@ -26,7 +26,7 @@ function Navbar({isTopOfPage,selected,setSelected})
         return(
             <nav className={`${navbarBackground} z-40 w-full fixed top-0 py-6`}>
                 <motion.div
-             className="left-0 top-0 w-full h-1 bg-red fixed z-50"
+             className="left-0 top-0 w-full h-1 bg-gradient-rainblue fixed z-50"
              style={{ scaleX: scrollYProgress }}
           />
                <div className='flex items-center justify-between mx-auto w-5/6'>
@@ -38,6 +38,7 @@ function Navbar({isTopOfPage,selected,setSelected})
                     <Link page="Home" selected={selected} setselected={setSelected}/>
                     <Link page="Skill" selected={selected} setselected={setSelected}/>
                     <Link page="Project" selected={selected} setselected={setSelected}/>
+                    <Link page="Experience" selected={selected} setselected={setSelected}/>
                     <Link page="Testimonial" selected={selected} setselected={setSelected}/>
                     <Link page="Contact" selected={selected} setselected={setSelected}/>
                     </div>
@@ -56,6 +57,7 @@ function Navbar({isTopOfPage,selected,setSelected})
                        <Link page="Home" selected={selected} setselected={setSelected}/>
                     <Link page="Skill" selected={selected} setselected={setSelected}/>
                     <Link page="Project" selected={selected} setselected={setSelected}/>
+                    <Link page="Experience" selected={selected} setselected={setSelected}/>
                     <Link page="Testimonial" selected={selected} setselected={setSelected}/>
                     <Link page="Contact" selected={selected} setselected={setSelected}/>
                         </div>

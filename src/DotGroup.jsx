@@ -13,19 +13,23 @@ function DotGroup({selected,setSelected})
         <AnchorLink className={`${selected==='skill' ? selectedStyle:"bg-deep-grey"}
        w-3 h-3 rounded-full `}
         href="#skill"
-        onClick={()=>setselected('skill')}/>
+        onClick={()=>setSelected('skill')}/>
         <AnchorLink className={`${selected==='project' ? selectedStyle:"bg-deep-grey"}
        w-3 h-3 rounded-full `}
         href="#project"
-        onClick={()=>setselected('project')}/>
+        onClick={()=>setSelected('project')}/>
+         <AnchorLink className={`${selected==='experience' ? selectedStyle:"bg-deep-grey"}
+       w-3 h-3 rounded-full `}
+        href="#Experience"
+        onClick={()=>setSelected('experience')}/>
         <AnchorLink className={`${selected==='testimonial' ? selectedStyle:"bg-deep-grey"}
        w-3 h-3 rounded-full `}
         href="#testimonial"
-        onClick={()=>setselected('testimonial')}/>
+        onClick={()=>setSelected('testimonial')}/>
         <AnchorLink className={`${selected==='contact' ? selectedStyle:"bg-deep-grey"}
        w-3 h-3 rounded-full `}
         href="#contact"
-        onClick={()=>setselected('contact')}/>
+        onClick={()=>setSelected('contact')}/>
         </div>
     );
 }

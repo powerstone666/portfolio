@@ -27,7 +27,11 @@ export default {
             },
             content: {
               brush: "url('/src/assets/brush.png')",
-              menu: "url('/src/assets/menu-icon.svg')"
+              junaid: "url('/src/assets/junaid.png')",
+              ateeq: "url('/src/assets/ateeq.png')",
+              ankit: "url('/src/assets/ankit.png')",
+              menu: "url('/src/assets/menu-icon.svg')",
+             
             },
             screens: {
               xs: "480px",

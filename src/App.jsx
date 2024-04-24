@@ -6,6 +6,10 @@ import Landing from './Landing';
 import Linegardient from './llinegradient';
 import Myskills from './myskills';
 import Projects from './projects';
+import Experience from './experience';
+import Testimonial from './testimonial';
+import Contact from './contact';
+import Footer from './footer';
 function App() {
   const [selected, setSelected] = useState('home');
   const isAboveMedium = useMediaQuery("(min-width: 1060px)");
@@ -41,6 +45,19 @@ useEffect(() => {
       <div  className='w-5/6 mx-auto '>
          <Projects/>
       </div>
+      <Linegardient />
+      <div  className='w-5/6 mx-auto '>
+         <Experience/>
+      </div>
+      <Linegardient />
+      <div  className='w-5/6 mx-auto md:h-full'>
+         <Testimonial/>
+      </div>
+      <Linegardient />
+      <div  className='w-5/6 mx-auto md:h-full'>
+         <Contact/>
+      </div>
+      <Footer/>
     </div>
   );
 }
