@@ -10,6 +10,7 @@ import Experience from './experience';
 import Testimonial from './testimonial';
 import Contact from './contact';
 import Footer from './footer';
+import AnimatedCursor from "react-animated-cursor"
 function App() {
   const [selected, setSelected] = useState('home');
   const isAboveMedium = useMediaQuery("(min-width: 1060px)");
@@ -30,6 +31,14 @@ useEffect(() => {
 
   return (
     <div className="bg-deep-blue">
+      <AnimatedCursor
+       innerSize={20}
+       outerSize={35}
+       color='193, 11, 111'
+       outerAlpha={0.2}
+       innerScale={0.7}
+       outerScale={5}
+      />
       <Navbar isTopOfPage={isTopOfPage} selected={selected} setSelected={setSelected} />
       <div className='w-5/6 mx-auto md:h-full'>
         {isAboveMedium && (
