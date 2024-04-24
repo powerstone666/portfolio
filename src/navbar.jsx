@@ -3,6 +3,7 @@ import {useState} from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import useMediaQuery from './useMediaQuery';
 import close from './assets/close-icon.svg';
+import menubar from './assets/menu-icon.svg';
 import {motion,useScroll} from 'framer-motion';
 const Link =({page,selected,setselected})=>{
     const lowerCasePage = page.toLowerCase();
@@ -44,7 +45,7 @@ function Navbar({isTopOfPage,selected,setSelected})
                     <Link page="Contact" selected={selected} setselected={setSelected}/>
                     </div>
             ):(<button>
-                <img src="src/assets/menu-icon.svg" alt="menu" className=" rounded-full bg-red p-2" onClick={()=>setIsMenuToggled(!isMenuToggled)}/>
+                <img src={menubar} alt="menu" className=" rounded-full bg-red p-2" onClick={()=>setIsMenuToggled(!isMenuToggled)}/>
             </button>)}
             {/*mobile*/}
             {!isAboveSmall && isMenuToggled && (
