@@ -27,10 +27,12 @@ useEffect(() => {
   return () => window.removeEventListener("scroll", handleScroll);
 },[]);
 
-
+const isAboveSmall = useMediaQuery('(min-width: 768px)');
 
   return (
+   
     <div className="bg-deep-blue">
+      if (isAboveSmall) {
       <AnimatedCursor
        innerSize={20}
        outerSize={35}
@@ -38,7 +40,8 @@ useEffect(() => {
        outerAlpha={0.2}
        innerScale={0.7}
        outerScale={5}
-      />
+      />}
+      
       <Navbar isTopOfPage={isTopOfPage} selected={selected} setSelected={setSelected} />
       <div className='w-5/6 mx-auto md:h-full'>
         {isAboveMedium && (
