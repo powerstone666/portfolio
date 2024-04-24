@@ -33,9 +33,9 @@ Connect with Imran Pasha through the contact section. Visitors can send him a me
 ## 🖼️ Images
 
 The website features a visually appealing design with carefully selected images to enhance the user experience.
-<img src="https://i.ibb.co/0cvtxXz/dynamic-signin.jpg" alt="dynamic-signin" alt="Screenshot 1">
-<img src="https://i.ibb.co/0cvtxXz/dynamic-signin.jpg" alt="dynamic-signin" alt="Screenshot 1">
-<img src="https://i.ibb.co/0cvtxXz/dynamic-signin.jpg" alt="dynamic-signin" alt="Screenshot 1">
+<img src="Screenshot (148).png"  alt="Screenshot 1">
+<img src="Screenshot (149).png" alt="Screenshot 2">
+<img src="Screenshot (150).png"  alt="Screenshot 2">
 
 ## 📱 Responsive Design
 
