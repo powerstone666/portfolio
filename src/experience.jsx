@@ -44,7 +44,7 @@ function Experience()
     
     
   >
-    <h3 className="vertical-timeline-element-title">Buildspace-Weekend&Nights S5</h3>
+    <h3 className="vertical-timeline-element-title">Buildspace-Nights&Weekends S5</h3>
     <h4 className="vertical-timeline-element-subtitle">MelodyMind</h4>
     <p>
             Currently working on a Music Player with full playback and download capabilities with song recommendation enhanced by AI for Mood detection and recommendation.
