@@ -9,3 +9,26 @@ html,body,#root,
   background-color:#010026 ;
   @apply text-white
 }
+.rhap_time{
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.rhap_progress-filled{
+  background-color: #1ED760;
+}
+.rhap_main-controls-button{
+
+  color: #fff;
+ 
+}
+.rhap_volume-button{
+  color: #fff;
+}
+.rhap_progress-indicator{
+  background-color: #1ED760;
+}
+.rhap_volume-indicator{
+  background-color: white;
+}

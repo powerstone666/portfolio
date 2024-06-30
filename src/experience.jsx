@@ -35,6 +35,21 @@ function Experience()
                                 </motion.div>
 
               <VerticalTimeline lineColor='linear-gradient( #8a2be2, #ff69b4)'>
+              <VerticalTimelineElement
+    className="vertical-timeline-element--work"
+    contentStyle={{ background: 'RGB(0, 102, 51)', color: 'orange' }}
+    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+    date="2024 - present"
+    iconStyle={{ background: 'linear-gradient(to right, #8a2be2, #0000ff)',boxShadow: "0 0 20px 10px #4169e1", color: '#fff' }}
+    
+    
+  >
+    <h3 className="vertical-timeline-element-title">Buildspace-Weekend&Nights S5</h3>
+    <h4 className="vertical-timeline-element-subtitle">MelodyMind</h4>
+    <p>
+            Currently working on a Music Player with full playback and download capabilities with song recommendation enhanced by AI for Mood detection and recommendation.
+    </p>
+  </VerticalTimelineElement>
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     contentStyle={{ background: 'RGB(0, 102, 51)', color: '#fff' }}
@@ -47,7 +62,7 @@ function Experience()
     <h3 className="vertical-timeline-element-title">GeekForGeeks</h3>
     <h4 className="vertical-timeline-element-subtitle">Data Structures And Algorithm-java</h4>
     <p>
-            Currently working on DSA problems in Java.and im under 25th rank among 1000+ students in my university.
+            Currently working on DSA problems in Java.and im under 25th rank among 500+ students in my university.
     </p>
   </VerticalTimelineElement>
   <VerticalTimelineElement
