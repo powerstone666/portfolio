@@ -4,7 +4,7 @@ import dynamicflow from "./assets/dynamicflow-1.png";
 import textsummarizer from "./assets/textsummarizer.png";
 import buildhub from "./assets/buildhub.png";
 import usermanagement from "./assets/usermanagement.png";
-
+import melodymind from "./assets/melodymind.png";
 function Projects()
 {
         // Your animation variants
@@ -84,6 +84,7 @@ function Projects()
                     <div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibolld">
                         BEAUTIFUL USER INTERFACE
                     </div>
+                    <Project title={melodymind}  title2="MelodyMind" gitlink="https://github.com/powerstone666/MelodyMind"/>
                     <Project title={dynamicflow}  title2="DynamicFlow" gitlink="https://github.com/powerstone666/DynamicFlow-react"/>
                     <Project title={textsummarizer}  title2="AI Text Summarizer" gitlink="https://github.com/powerstone666/text-summarizer"/>
                     {/*row2*/}

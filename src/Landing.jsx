@@ -95,7 +95,7 @@ Passionate about crafting digital experiences through code. Always seeking innov
                 <a
               className="bg-gradient-rainblue text-deep-blue px-7 py-3 rounded-sm text-sm font-semibold 
               hover:bg-blue hover:text-white transition duration-500 "
-              href="https://drive.google.com/file/d/1G7OjQxeFc54nOSUIsqzw_hB0kcVMDbtI/view?usp=sharing" target="blank_">
+              href="https://drive.google.com/file/d/1EqMTlzTmj2_fLEqut_4LesTrqV0zKoVP/view?usp=drive_link" target="blank_">
                 Download CV
               </a>
             </motion.div>
